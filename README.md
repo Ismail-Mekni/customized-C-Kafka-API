@@ -1,4 +1,4 @@
-# C language Kafka client customization
+# C Kafka client customization
 
 This a simple header file and source code file that defines two functions to consume messages from Kafka and produce messages to Kafka with C programming language.
 If you want to implement a Kafka client using C programming language, you will find that the only way is using librdkafka C library. Librdkafka is an advanced C library to create Kafka clients, with many features and options. After working for some days with it I've found that people don't like to go in-depth with details when it comes to Kafka producing and consuming. In general, we just need two simple functions for producing messages to Kafka and consuming messages from it.
